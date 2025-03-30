@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#screen {
+    border-radius: 20px;
+    border-color: aqua;
+    border-style: solid;
+    height: 50px;
+    width: 400px;
+}
