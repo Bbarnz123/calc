@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
 
 #screen {
@@ -10,4 +12,16 @@ body {
     border-style: solid;
     height: 50px;
     width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.row1 button, .row2 button, .row3 button {
+    width: 80px;
+    border-width: 0;
+}
+
+.row4 button {
+    width: 130px;
+    border-width: 0;
 }
