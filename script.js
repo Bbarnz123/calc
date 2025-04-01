@@ -63,7 +63,7 @@ equal.addEventListener("click", (event) => {
     wipeScreen ();
     result = operate (operator, a, b);
 
-    if (result.toString().length > 5) {
+    if (result.toString().length > 10) {
         result = result.toString().split("").slice(0, 6).join("");
     };
 
